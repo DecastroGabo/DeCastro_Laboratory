@@ -90,7 +90,7 @@ class Vehicle {
                 scan.nextLine();  
                 System.out.print("Fuel Type: "); 
                 String Fuel = scan.nextLine(); 
-                System.out.print("Has Sidecar? (true/false):  "); 
+                System.out.print("Has Sidecar? (true/false):  ");
                 boolean hasSidecar = scan.nextBoolean(); 
          
                 Vehicle car = new Car(carBrand, carSpeed, carFuel, numDoors); 
@@ -104,6 +104,7 @@ class Vehicle {
                 motorcycle.displayInfo(); 
          
                 scan.close(); 
+
     }
 
 
